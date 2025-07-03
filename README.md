@@ -1,4 +1,4 @@
-# stec_alerta_fly365
+# stec_fly365
 
 A new Flutter project.
 
