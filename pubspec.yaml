@@ -1,0 +1,37 @@
+name: fly2w_365
+description: "FLY2W 365 gestionar solicitudes de viaje y promociones"
+publish_to: 'none'
+
+version: 0.1.2+3
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+  english_words: ^4.0.0
+  provider: ^6.1.5
+  flutter_local_notifications: ^19.2.1
+  cached_network_image: ^3.4.1
+  flutter_cache_manager: ^3.4.1
+  intl: ^0.20.2
+  path_provider: ^2.1.5
+  fl_country_code_picker: ^0.1.9+1
+  intl_phone_field: ^3.2.0
+  url_launcher: ^6.3.1
+  dropdown_search: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/datosJson/
